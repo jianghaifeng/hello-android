@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">hello-android</string>
+    <string name="text2">activity main 2</string>
+</resources>
