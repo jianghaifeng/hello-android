@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity3">
+    tools:context=".MainActivity3"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_margin="5dp"
@@ -11,5 +12,14 @@
         android:layout_height="30dp"
         android:src="@drawable/back"
         android:id="@+id/back"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="request:"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/receiveText"/>
 
 </LinearLayout>
